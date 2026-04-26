@@ -126,8 +126,8 @@ export default function ClaroLandingPage() {
             <p>Claro is ontstaan vanuit een gedeelde overtuiging: dat echte begeleiding vraagt om betrokkenheid, helderheid en respect.</p>
             <p>We werken elk vanuit onze eigen expertise en begeleiden onze trajecten apart, maar blijven altijd met elkaar in gesprek.</p>
             <p>Onze achtergronden zijn verschillend, maar vullen elkaar aan.</p>
-            <p className="pt-4">Ils begeleidt mensen en gezinnen die willen groeien, balans zoeken of tegen uitdagingen aanlopen.</p>
-            <p>Karl ondersteunt mensen die vastlopen bij keuzes en uitdagingen in hun persoonlijke leven, werk of relaties.</p>
+            <p className="pt-4">Ils ondersteunt bij persoonlijke groei, beslissingen nemen, balans en levensvragen, zowel privé, als binnen werk- en gezinscontext.</p>
+            <p>Karl helpt bij het maken van keuzes en het omgaan met uitdagingen in je persoonlijke, professionele of relationele leven.</p>
           </div>
         </section>
 
@@ -151,6 +151,8 @@ export default function ClaroLandingPage() {
               />
               <h2 className="text-4xl font-bold mb-6">Karl Ketelslagers</h2>
               <p className="text-lg leading-[1.08] text-neutral-700">Karl begeleidt mensen die vastlopen bij belangrijke keuzes en uitdagingen in hun persoonlijke en professionele leven, of in relaties en gezinsdynamieken.</p>
+              <p>Met zijn achtergrond als ondernemer begrijpt hij als geen ander de druk van verantwoordelijkheid, keuzes maken en blijven doorgaan, ook wanneer het niet meer helder voelt.</p>
+              <p>Hij helpt mensen om opnieuw overzicht te krijgen, richting te bepalen en concrete stappen te zetten die echt bij hen passen.</p>
             </div>
 
             <div className="flex flex-col">
@@ -164,6 +166,9 @@ export default function ClaroLandingPage() {
               />
               <h2 className="text-4xl font-bold mb-6">Ils Camps</h2>
               <p className="text-lg leading-[1.08] text-neutral-700">Ils ondersteunt mensen en gezinnen bij persoonlijke groei, het vinden van balans en het omgaan met levensvragen, zowel privé als in werk- of gezinscontext.</p>
+              <p>Vanuit haar ervaring in het onderwijs heeft ze een sterke voeling met wat er leeft onder de oppervlakte.</p>
+              <p>Ze begeleidt met zachtheid en aandacht, en helpt mensen om terug verbinding te maken met zichzelf, hun gevoelens en hun noden.</p>
+              <p>Ze helpt met het zetten van een eerste stap.</p>
             </div>
           </div>
         </section>
