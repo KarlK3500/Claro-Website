@@ -160,7 +160,7 @@ export default function ClaroLandingPage() {
                 initial={{ opacity: 0, y: 40, scale: 1.03 }}
                 whileInView={{ opacity: 1, y: 0, scale: 1 }}
                 transition={{ duration: 1.4, ease: "easeOut" }}
-                src="Ils1.jpg"
+                src="Ils2.jpg"
                 alt="Ils Camps"
                 className="h-[420px] md:h-[560px] w-full object-cover object-center rounded-2xl mb-8 grayscale contrast-125 brightness-90 sepia-[0.15] shadow-2xl bg-neutral-200"
               />
