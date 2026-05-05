@@ -102,21 +102,29 @@ export default function ClaroLandingPage() {
           </motion.div>
         </section>
 
-        <section className="max-w-5xl mx-auto px-6 py-24 md:py-40 space-y-10 md:space-y-12 text-lg leading-[1.08] relative text-neutral-700 scroll-mt-28" style={{ fontFamily: "Inter, sans-serif" }}>
-          <div className="max-w-3xl mx-auto px-6 py-32 space-y-8 leading-[1.6]">
-            <p>Wanneer praten niet meer volstaat.</p>
-            <p>Wanneer het niet meer stroomt.</p>
-            <p>Wanneer je voelt dat er iets wringt, maar niet precies weet wat of hoe je het moet aanpakken.</p>
-            <p>Bij Claro creëren we ruimte om stil te staan. Om helder te kijken naar wat speelt.</p>
-            <p>Om eerlijk te benoemen wat vastzit.</p>
-            <p>En om bewust te kiezen hoe het verder mag.</p>
-            <p>We begeleiden mensen die zoeken naar richting, in hun relatie, hun gezin, hun werk of in zichzelf. Individueel of in groep.</p>
-            <p>Met aandacht, diepgang en respect voor ieders tempo.</p>
-          </div>
+        <section className="max-w-3xl mx-auto px-6 py-28 space-y-4 leading-[1.5] text-neutral-700">
+  <p>
+    Wanneer praten niet meer volstaat.<br />
+    Wanneer het niet meer stroomt.<br />
+    Wanneer je voelt dat er iets wringt, maar niet precies weet wat of hoe je het moet aanpakken.
+  </p>
 
-          <p>Helder kijken.</p>
-          <p>Eerlijk benoemen.</p>
-          <p>Bewust kiezen.</p>
+  <p>
+    Bij Claro creëren we ruimte om stil te staan. Om helder te kijken naar wat speelt.
+  </p>
+
+  <p>
+    Om eerlijk te benoemen wat vastzit. En om bewust te kiezen hoe het verder mag.
+  </p>
+
+  <p>
+    We begeleiden mensen die zoeken naar richting, in hun relatie, hun gezin, hun werk of in zichzelf.
+  </p>
+
+  <p>
+    Met aandacht, diepgang en respect voor ieders tempo.
+  </p>
+</section>
 
           <h2 id="doen" className="text-4xl md:text-5xl tracking-[0.3em] font-bold text-neutral-900 pt-8 mb-8 scroll-mt-28 ml-0" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
             WAT DOEN WIJ
