@@ -103,7 +103,7 @@ export default function ClaroLandingPage() {
         </section>
 
         <section className="max-w-5xl mx-auto px-6 py-24 md:py-40 space-y-10 md:space-y-12 text-lg leading-[1.08] relative text-neutral-700 scroll-mt-28" style={{ fontFamily: "Inter, sans-serif" }}>
-          <div className="space-y-6 leading-[0.9]">
+          <div className="max-w-3xl mx-auto px-6 py-32 space-y-8 leading-[1.6]">
             <p>Wanneer praten niet meer volstaat.</p>
             <p>Wanneer het niet meer stroomt.</p>
             <p>Wanneer je voelt dat er iets wringt, maar niet precies weet wat of hoe je het moet aanpakken.</p>
@@ -122,7 +122,7 @@ export default function ClaroLandingPage() {
             WAT DOEN WIJ
           </h2>
 
-          <div className="space-y-4 leading-[0.86]">
+          <div className="max-w-3xl mx-auto px-6 py-32 space-y-8 leading-[1.6]">
             <p>Claro is ontstaan vanuit een gedeelde overtuiging: dat echte begeleiding vraagt om betrokkenheid, helderheid en respect.</p>
             <p>We werken elk vanuit onze eigen expertise en begeleiden onze trajecten apart, maar blijven altijd met elkaar in gesprek.</p>
             <p>Onze achtergronden zijn verschillend, maar vullen elkaar aan.</p>
