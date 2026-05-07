@@ -88,12 +88,12 @@ export default function ClaroLandingPage() {
               <div className="text-3xl md:text-6xl tracking-[0.35em] font-bold">CLARO</div>
             </div>
 
-            <h1 className="text-4xl sm:text-5xl md:text-[8.5rem] font-bold leading-[0.95] mb-10 tracking-tight max-w-5xl mx-auto">
+            <h1 className="text-4xl sm:text-5xl md:text-[7.5rem] tracking-tight leading-[0.95]">
               <span className="block">Waar richting</span>
               <span className="block md:ml-24">helder wordt</span>
             </h1>
 
-            <p className="text-neutral-500 italic text-lg md:text-xl mb-10 leading-[0.7]">Where direction becomes clear</p>
+            <p className="text-neutral-500 italic text-lg md:text-xl mb-10 leading-[1.4]">Where direction becomes clear</p>
             <motion.div animate={{ opacity: [0.4, 1, 0.4] }} transition={{ repeat: Infinity, duration: 3 }}>
               <button onClick={() => scrollToSection("contact")} className="inline-block border border-black/20 px-8 py-3 rounded-full text-sm tracking-[0.25em] uppercase">
                 Contact opnemen
@@ -102,7 +102,7 @@ export default function ClaroLandingPage() {
           </motion.div>
         </section>
 
-        <section className="max-w-3xl mx-auto px-6 py-28 space-y-4 leading-[1.5] text-neutral-700">
+        <section className="max-w-3xl mx-auto px-6 py-32 space-y-4 leading-[1.5] text-neutral-700">
   <p>
     Wanneer praten niet meer volstaat.<br />
     Wanneer het niet meer stroomt.<br />
@@ -130,16 +130,16 @@ export default function ClaroLandingPage() {
             WAT DOEN WIJ
           </h2>
 
-          <div className="max-w-3xl mx-auto px-6 py-32 space-y-8 leading-[1.6]">
+          <div className="max-w-3xl mx-auto px-6 py-32 space-y-6 leading-[1.6] text-neutral-700">
             <p>Claro is ontstaan vanuit een gedeelde overtuiging: dat echte begeleiding vraagt om betrokkenheid, helderheid en respect.</p>
             <p>We werken elk vanuit onze eigen expertise en begeleiden onze trajecten apart, maar blijven altijd met elkaar in gesprek.</p>
             <p>Onze achtergronden zijn verschillend, maar vullen elkaar aan.</p>
             <p className="pt-4">Ils ondersteunt bij persoonlijke groei, beslissingen nemen, balans en levensvragen, zowel privé, als binnen werk- en gezinscontext.</p>
             <p>Karl helpt bij het maken van keuzes en het omgaan met uitdagingen in je persoonlijke, professionele of relationele leven.</p>
           </div>
-        </section>
 
-        <section id="wie" className="bg-white py-24 md:py-40 px-6 relative overflow-hidden">
+        <section id="wie" className="bg-white py-24 md:py-32
+         px-6 relative overflow-hidden">
           <div className="scroll-mt-32 absolute -top-32" id="wie-anchor" />
           <div className="max-w-6xl mx-auto mb-16 relative z-10">
             <h2 id="wie-title" className="text-4xl md:text-5xl tracking-[0.3em] font-bold text-neutral-900 scroll-mt-24" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
@@ -155,7 +155,7 @@ export default function ClaroLandingPage() {
                 transition={{ duration: 1.2, ease: "easeOut" }}
                 src="/Karl2.jpg"
                 alt="Karl Ketelslagers"
-                className="h-[420px] md:h-[560px] w-full object-cover object-center rounded-2xl mb-8 grayscale contrast-125 brightness-90 sepia-[0.15] shadow-2xl bg-neutral-200"
+                className="h-[420px] md:h-[560px] w-full object-cover object-center rounded-2xl mb-8 grayscale contrast-110 brightness-95 sepia-[0.15] shadow-2xl bg-neutral-200"
               />
               <h2 className="text-4xl font-bold mb-6">Karl Ketelslagers</h2>
               <p className="text-lg leading-[1.08] text-neutral-700">Karl begeleidt mensen die vastlopen bij belangrijke keuzes en uitdagingen in hun persoonlijke en professionele leven, of in relaties en gezinsdynamieken.</p>
@@ -170,7 +170,7 @@ export default function ClaroLandingPage() {
                 transition={{ duration: 1.4, ease: "easeOut" }}
                 src="Ils2.jpg"
                 alt="Ils Camps"
-                className="h-[420px] md:h-[560px] w-full object-cover object-center rounded-2xl mb-8 grayscale contrast-125 brightness-90 sepia-[0.15] shadow-2xl bg-neutral-200"
+                className="h-[420px] md:h-[560px] w-full object-cover object-center rounded-2xl mb-8 grayscale contrast-110 brightness-95 sepia-[0.15] shadow-2xl bg-neutral-200"
               />
               <h2 className="text-4xl font-bold mb-6">Ils Camps</h2>
               <p className="text-lg leading-[1.08] text-neutral-700">Ils ondersteunt mensen en gezinnen bij persoonlijke groei, het vinden van balans en het omgaan met levensvragen, zowel privé als in werk- of gezinscontext.</p>
@@ -181,7 +181,7 @@ export default function ClaroLandingPage() {
           </div>
         </section>
 
-        <section id="contact" className="bg-neutral-950 text-white py-20 md:py-36 px-6 relative overflow-hidden scroll-mt-28">
+        <section id="contact" className="bg-neutral-950 text-white py-20 md:py-32 px-6 relative overflow-hidden scroll-mt-28">
           <div className="max-w-5xl mx-auto mb-16 relative z-10">
             <h2 className="text-4xl md:text-5xl tracking-[0.3em] font-bold text-white" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
               CONTACT
@@ -190,8 +190,8 @@ export default function ClaroLandingPage() {
 
           <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-16">
             <div className="space-y-4 text-lg leading-[1.08] text-neutral-300">
-              <p>karl.ktel@gmail.com</p>
-              <p>0495/224924</p>
+              <p>info@clarobalance.com</p>
+              <p>0495/224924 - 0473/278769</p>
               <p>Weggevoerdenstraat 39, 3500 Hasselt</p>
             </div>
 
