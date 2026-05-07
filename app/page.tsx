@@ -81,7 +81,7 @@ export default function ClaroLandingPage() {
           </motion.div>
 
           <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1.2 }} className="relative text-center max-w-6xl">
-            <div className="mb-10 flex flex-col items-center gap-5 relative">
+            <div className="mb-6 flex flex-col items-center gap-5 relative">
               <svg width="110" height="110" viewBox="0 0 110 110" className="opacity-80">
                 <path d="M80 24 C61 10, 29 20, 24 51 C22 77, 47 91, 74 79" stroke="currentColor" strokeWidth="1" fill="none" strokeLinecap="round" />
               </svg>
@@ -93,7 +93,7 @@ export default function ClaroLandingPage() {
               <span className="block md:ml-24">helder wordt</span>
             </h1>
 
-            <p className="text-neutral-500 italic text-lg md:text-xl mb-10 leading-[1.4]">Where direction becomes clear</p>
+            <p className="text-neutral-500 italic text-lg md:text-xl mb-6 leading-[1.4]">Where direction becomes clear</p>
             <motion.div animate={{ opacity: [0.4, 1, 0.4] }} transition={{ repeat: Infinity, duration: 3 }}>
               <button onClick={() => scrollToSection("contact")} className="inline-block border border-black/20 px-8 py-3 rounded-full text-sm tracking-[0.25em] uppercase">
                 Contact opnemen
@@ -102,7 +102,7 @@ export default function ClaroLandingPage() {
           </motion.div>
         </section>
 
-        <section className="max-w-3xl mx-auto px-6 py-32 space-y-4 leading-[1.5] text-neutral-700">
+        <section className="max-w-3xl mx-auto px-6 py-20 space-y-4 leading-[1.5] text-neutral-700">
   <p>
     Wanneer praten niet meer volstaat.<br />
     Wanneer het niet meer stroomt.<br />
@@ -126,11 +126,11 @@ export default function ClaroLandingPage() {
   </p>
 </section>
 
-          <h2 id="doen" className="text-4xl md:text-5xl tracking-[0.3em] font-bold text-neutral-900 pt-8 mb-8 scroll-mt-28 ml-0" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+          <h2 id="doen" className="max-w-3xl mx-auto text-4xl md:text-5xl tracking-[0.22em] font-bold text-neutral-900 mb-12 pt-8 scroll-mt-28">
             WAT DOEN WIJ
           </h2>
 
-          <div className="max-w-3xl mx-auto px-6 py-32 space-y-6 leading-[1.6] text-neutral-700">
+          <div className="max-w-3xl mx-auto px-6 py-20 space-y-6 leading-[1.85] text-neutral-700">
             <p>Claro is ontstaan vanuit een gedeelde overtuiging: dat echte begeleiding vraagt om betrokkenheid, helderheid en respect.</p>
             <p>We werken elk vanuit onze eigen expertise en begeleiden onze trajecten apart, maar blijven altijd met elkaar in gesprek.</p>
             <p>Onze achtergronden zijn verschillend, maar vullen elkaar aan.</p>
@@ -138,7 +138,7 @@ export default function ClaroLandingPage() {
             <p>Karl helpt bij het maken van keuzes en het omgaan met uitdagingen in je persoonlijke, professionele of relationele leven.</p>
           </div>
 
-        <section id="wie" className="bg-white py-24 md:py-32
+        <section id="wie" className="bg-white py-20 md:py-28
          px-6 relative overflow-hidden">
           <div className="scroll-mt-32 absolute -top-32" id="wie-anchor" />
           <div className="max-w-6xl mx-auto mb-16 relative z-10">
@@ -158,7 +158,7 @@ export default function ClaroLandingPage() {
                 className="h-[420px] md:h-[560px] w-full object-cover object-center rounded-2xl mb-8 grayscale contrast-110 brightness-95 sepia-[0.15] shadow-2xl bg-neutral-200"
               />
               <h2 className="text-4xl font-bold mb-6">Karl Ketelslagers</h2>
-              <p className="text-lg leading-[1.08] text-neutral-700">Karl begeleidt mensen die vastlopen bij belangrijke keuzes en uitdagingen in hun persoonlijke en professionele leven, of in relaties en gezinsdynamieken.</p>
+              <p className="text-lg leading-[1.75] space-y-5 text-neutral-700">Karl begeleidt mensen die vastlopen bij belangrijke keuzes en uitdagingen in hun persoonlijke en professionele leven, of in relaties en gezinsdynamieken.</p>
               <p>Met zijn achtergrond als ondernemer begrijpt hij als geen ander de druk van verantwoordelijkheid, keuzes maken en blijven doorgaan, ook wanneer het niet meer helder voelt.</p>
               <p>Hij helpt mensen om opnieuw overzicht te krijgen, richting te bepalen en concrete stappen te zetten die echt bij hen passen.</p>
             </div>
@@ -173,7 +173,7 @@ export default function ClaroLandingPage() {
                 className="h-[420px] md:h-[560px] w-full object-cover object-center rounded-2xl mb-8 grayscale contrast-110 brightness-95 sepia-[0.15] shadow-2xl bg-neutral-200"
               />
               <h2 className="text-4xl font-bold mb-6">Ils Camps</h2>
-              <p className="text-lg leading-[1.08] text-neutral-700">Ils ondersteunt mensen en gezinnen bij persoonlijke groei, het vinden van balans en het omgaan met levensvragen, zowel privé als in werk- of gezinscontext.</p>
+              <p className="text-lg leading-[1.75] space-y-5 text-neutral-700">Ils ondersteunt mensen en gezinnen bij persoonlijke groei, het vinden van balans en het omgaan met levensvragen, zowel privé als in werk- of gezinscontext.</p>
               <p>Vanuit haar ervaring in het onderwijs heeft ze een sterke voeling met wat er leeft onder de oppervlakte.</p>
               <p>Ze begeleidt met zachtheid en aandacht, en helpt mensen om terug verbinding te maken met zichzelf, hun gevoelens en hun noden.</p>
               <p>Ze helpt met het zetten van een eerste stap.</p>
