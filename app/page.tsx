@@ -102,7 +102,7 @@ export default function ClaroLandingPage() {
           </motion.div>
         </section>
 
-        <section className="max-w-3xl mx-auto px-6 py-20 space-y-4 leading-[1.5] text-neutral-700">
+        <section className="max-w-3xl mx-auto px-6 py-16>
   <p>
     Wanneer praten niet meer volstaat.<br />
     Wanneer het niet meer stroomt.<br />
@@ -181,7 +181,7 @@ export default function ClaroLandingPage() {
           </div>
         </section>
 
-        <section id="contact" className="bg-neutral-950 text-white py-20 md:py-32 px-6 relative overflow-hidden scroll-mt-28">
+        <section id="contact" className="bg-neutral-950 text-white py-16 md:py-24 px-6 relative overflow-hidden scroll-mt-28">
           <div className="max-w-5xl mx-auto mb-16 relative z-10">
             <h2 className="text-4xl md:text-5xl tracking-[0.3em] font-bold text-white" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
               CONTACT
