@@ -102,31 +102,31 @@ export default function ClaroLandingPage() {
           </motion.div>
         </section>
 
-        <section className="max-w-3xl mx-auto px-6 py-16>
+        <section className="max-w-3xl mx-auto px-6 py-16 leading-[1.75] text-neutral-700">
   <p>
     Wanneer praten niet meer volstaat.<br />
     Wanneer het niet meer stroomt.<br />
     Wanneer je voelt dat er iets wringt, maar niet precies weet wat of hoe je het moet aanpakken.
   </p>
 
-  <p>
+  <p className="mt-6">
     Bij Claro creëren we ruimte om stil te staan. Om helder te kijken naar wat speelt.
   </p>
 
-  <p>
+  <p className="mt-6">
     Om eerlijk te benoemen wat vastzit. En om bewust te kiezen hoe het verder mag.
   </p>
 
-  <p>
+  <p className="mt-6">
     We begeleiden mensen die zoeken naar richting, in hun relatie, hun gezin, hun werk of in zichzelf.
   </p>
 
-  <p>
+  <p className="mt-6">
     Met aandacht, diepgang en respect voor ieders tempo.
   </p>
 </section>
 
-          <div className="max-w-6xl mx-auto px-6">
+<div className="max-w-6xl mx-auto px-6 pt-10">
   <h2
     id="doen"
     className="text-4xl md:text-5xl tracking-[0.3em] font-bold text-neutral-900 mb-10 scroll-mt-28"
@@ -134,18 +134,29 @@ export default function ClaroLandingPage() {
   >
     WAT DOEN WIJ
   </h2>
+
+  <div className="max-w-3xl leading-[1.75] text-neutral-700 space-y-6">
+    <p>
+      Claro is ontstaan vanuit een gedeelde overtuiging: dat echte begeleiding vraagt om betrokkenheid, helderheid en respect.
+    </p>
+
+    <p>
+      We werken elk vanuit onze eigen expertise en begeleiden onze trajecten apart, maar blijven altijd met elkaar in gesprek.
+    </p>
+
+    <p>
+      Onze achtergronden zijn verschillend, maar vullen elkaar aan.
+    </p>
+
+    <p>
+      Ils ondersteunt bij persoonlijke groei, beslissingen nemen, balans en levensvragen, zowel privé als binnen werk- en gezinscontext.
+    </p>
+
+    <p>
+      Karl helpt bij het maken van keuzes en het omgaan met uitdagingen in je persoonlijke, professionele of relationele leven.
+    </p>
+  </div>
 </div>
-            WAT DOEN WIJ
-          </h2>
-
-          <div className="text-4xl md:text-5xl tracking-[0.3em] font-bold text-neutral-900 mb-10 scroll-mt-28">
-            <p>Claro is ontstaan vanuit een gedeelde overtuiging: dat echte begeleiding vraagt om betrokkenheid, helderheid en respect.</p>
-            <p>We werken elk vanuit onze eigen expertise en begeleiden onze trajecten apart, maar blijven altijd met elkaar in gesprek.</p>
-            <p>Onze achtergronden zijn verschillend, maar vullen elkaar aan.</p>
-            <p className="pt-4">Ils ondersteunt bij persoonlijke groei, beslissingen nemen, balans en levensvragen, zowel privé, als binnen werk- en gezinscontext.</p>
-            <p>Karl helpt bij het maken van keuzes en het omgaan met uitdagingen in je persoonlijke, professionele of relationele leven.</p>
-          </div>
-
         <section id="wie" className="bg-white py-20 md:py-28
          px-6 relative overflow-hidden">
           <div className="scroll-mt-32 absolute -top-32" id="wie-anchor" />
