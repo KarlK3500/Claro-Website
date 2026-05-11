@@ -126,11 +126,19 @@ export default function ClaroLandingPage() {
   </p>
 </section>
 
-          <h2 id="doen" className="max-w-3xl mx-auto text-4xl md:text-5xl tracking-[0.22em] font-bold text-neutral-900 mb-12 pt-8 scroll-mt-28">
+          <div className="max-w-6xl mx-auto px-6">
+  <h2
+    id="doen"
+    className="text-4xl md:text-5xl tracking-[0.3em] font-bold text-neutral-900 mb-10 scroll-mt-28"
+    style={{ fontFamily: '"Playfair Display", Georgia, serif' }}
+  >
+    WAT DOEN WIJ
+  </h2>
+</div>
             WAT DOEN WIJ
           </h2>
 
-          <div className="max-w-3xl mx-auto px-6 py-20 space-y-6 leading-[1.85] text-neutral-700">
+          <div className="text-4xl md:text-5xl tracking-[0.3em] font-bold text-neutral-900 mb-10 scroll-mt-28">
             <p>Claro is ontstaan vanuit een gedeelde overtuiging: dat echte begeleiding vraagt om betrokkenheid, helderheid en respect.</p>
             <p>We werken elk vanuit onze eigen expertise en begeleiden onze trajecten apart, maar blijven altijd met elkaar in gesprek.</p>
             <p>Onze achtergronden zijn verschillend, maar vullen elkaar aan.</p>
