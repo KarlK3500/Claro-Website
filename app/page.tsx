@@ -128,8 +128,8 @@ export default function ClaroLandingPage() {
 
 <div className="max-w-4xl mx-auto px-6 md:px-10">
   <h2
-    id="doen"
-    className="max-w-4xl mx-auto px-6 md:px-10 space-y-6 leading-[1.8] text-[1.05rem] text-neutral-700"
+  id="doen"
+  className="text-4xl md:text-5xl tracking-[0.3em] font-bold text-neutral-900 mb-10 scroll-mt-28"
     style={{ fontFamily: '"Playfair Display", Georgia, serif' }}
   >
     WAT DOEN WIJ
