@@ -126,7 +126,7 @@ export default function ClaroLandingPage() {
   </p>
 </section>
 
-<div className="max-w-6xl mx-auto px-6 pt-10">
+<div className="max-w-4xl mx-auto px-6 md:px-10">
   <h2
     id="doen"
     className="max-w-4xl mx-auto px-6 md:px-10 space-y-6 leading-[1.8] text-[1.05rem] text-neutral-700"
