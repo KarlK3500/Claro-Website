@@ -103,7 +103,7 @@ export default function ClaroLandingPage() {
         </section>
 
         <section className="max-w-6xl mx-auto px-6">
-          <div className="max-w-3xl leading-[1.8] text-lg text-neutral-700"></div>
+          <div className="max-w-3xl leading-[1.8] text-lg text-neutral-700">
   <p>
     Wanneer praten niet meer volstaat.<br />
     Wanneer het niet meer stroomt.<br />
