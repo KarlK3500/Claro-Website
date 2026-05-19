@@ -166,7 +166,7 @@ export default function ClaroLandingPage() {
             </h2>
           </div>
 
-          <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-24 items-start md:items-stretch relative z-10">
+          <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-24 items-start md:items-stretch relative z-10">
             <div className="flex flex-col">
               <motion.img
                 initial={{ opacity: 0, y: 40, scale: 1.03 }}
