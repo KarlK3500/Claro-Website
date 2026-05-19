@@ -160,7 +160,7 @@ export default function ClaroLandingPage() {
         <section id="wie" className="bg-white py-20 md:py-28
          px-6 relative overflow-hidden">
           <div className="scroll-mt-32 absolute -top-32" id="wie-anchor" />
-          <div className="max-w-6xl mx-auto mb-16 relative z-10">
+          <div className="max-w-5xl mx-auto mb-16 relative z-10">
             <h2 id="wie-title" className="text-4xl md:text-5xl tracking-[0.3em] font-bold text-neutral-900 scroll-mt-24" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
               WIE ZIJN WIJ
             </h2>
