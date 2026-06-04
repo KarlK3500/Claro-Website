@@ -13,10 +13,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Claro Balance | Therapie, Coaching & Mentale Begeleiding in Hasselt",
+  title: "Claro Balance | Therapie, Coaching & Persoonlijke Groei in Hasselt en Limburg",
   
   description:
-    "Claro Balance biedt therapie, coaching en mentale begeleiding in Hasselt en Limburg. Persoonlijke groei, relatiecoaching, stress, balans, levensvragen en retraites in Spanje Malaga.",
+  "Claro Balance begeleidt mensen in Hasselt en Limburg bij persoonlijke groei, coaching, therapie, relatievraagstukken, stress, burn-out, levensvragen en mentale balans. Daarnaast organiseren wij retraites en begeleidingstrajecten in Málaga, Spanje.",
 
   keywords: [
     "therapeut Hasselt",
@@ -37,7 +37,20 @@ export const metadata = {
     "mindset coaching",
     "emotionele begeleiding",
     "zelfontwikkeling",
-    "Claro Balance"
+    "Claro Balance",
+    "persoonlijke ontwikkeling",
+"relatiebegeleiding",
+"relatietherapie Limburg",
+"levenscoach Hasselt",
+"coach Limburg",
+"therapeut Limburg",
+"persoonlijke begeleiding",
+"emotioneel welzijn",
+"burn-out coach",
+"retreat Malaga",
+"retreat Spain",
+"retraite Andalusië",
+"persoonlijke ontwikkeling Spanje"
   ],
 
   openGraph: {
@@ -58,7 +71,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="nl"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
