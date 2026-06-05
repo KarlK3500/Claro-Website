@@ -110,15 +110,19 @@ export default function ClaroLandingPage() {
   </p>
 
   <p className="mt-6">
+    Bij Claro Balance bieden we coaching en persoonlijke begeleiding in Hasselt en Limburg voor mensen die op zoek zijn naar meer helderheid, richting en evenwicht in hun leven.
+  </p>
+
+  <p className="mt-6">
+    We ondersteunen bij levensvragen, persoonlijke groei, stress, burn-out, relatieproblemen en belangrijke keuzes, zowel privé als professioneel.
+  </p>
+
+  <p className="mt-6">
     Bij Claro creëren we ruimte om stil te staan. Om helder te kijken naar wat speelt.
   </p>
 
-  <p className="mt-6">
+   <p className="mt-6">
     Om eerlijk te benoemen wat vastzit. En om bewust te kiezen hoe het verder mag.
-  </p>
-
-  <p className="mt-6">
-    We begeleiden mensen die zoeken naar richting, in hun relatie, hun gezin, hun werk of in zichzelf.
   </p>
 
   <p className="mt-6">
@@ -141,7 +145,7 @@ export default function ClaroLandingPage() {
     </p>
 
     <p>
-      We werken elk vanuit onze eigen expertise en begeleiden onze trajecten apart, maar blijven altijd met elkaar in gesprek.
+      Claro Balance biedt coaching, persoonlijke begeleiding en ondersteuning aan mensen die vastlopen in hun persoonlijke leven, relaties, gezin of professionele context.
     </p>
 
     <p>
@@ -177,9 +181,10 @@ export default function ClaroLandingPage() {
                 className="h-[420px] md:h-[560px] w-full object-cover object-center rounded-2xl mb-8 grayscale contrast-110 brightness-95 sepia-[0.15] shadow-2xl bg-neutral-200"
               />
               <h2 className="text-4xl font-bold mb-6">Karl Ketelslagers</h2>
-              <p className="text-lg leading-[1.75] space-y-5 text-neutral-700">Karl begeleidt mensen die vastlopen bij belangrijke keuzes en uitdagingen in hun persoonlijke en professionele leven, of in relaties en gezinsdynamieken.</p>
-              <p>Met zijn achtergrond als ondernemer begrijpt hij als geen ander de druk van verantwoordelijkheid, keuzes maken en blijven doorgaan, ook wanneer het niet meer helder voelt.</p>
+              <p className="text-lg leading-[1.75] space-y-5 text-neutral-700">Karl begeleidt mensen die vastlopen bij belangrijke keuzes, stress, relationele uitdagingen of veranderingen in hun persoonlijke en professionele leven.</p>
+              <p>Vanuit zijn ervaring als ondernemer begrijpt hij de impact van verantwoordelijkheid, druk, leiderschap en complexe beslissingen.</p>
               <p>Hij helpt mensen om opnieuw overzicht te krijgen, richting te bepalen en concrete stappen te zetten die echt bij hen passen.</p>
+              <p>Zijn begeleiding richt zich onder meer op persoonlijke ontwikkeling, coaching, burn-outpreventie, relationele vraagstukken en professionele uitdagingen.</p>
             </div>
 
             <div className="flex flex-col">
@@ -192,10 +197,10 @@ export default function ClaroLandingPage() {
                 className="h-[420px] md:h-[560px] w-full object-cover object-center rounded-2xl mb-8 grayscale contrast-110 brightness-95 sepia-[0.15] shadow-2xl bg-neutral-200"
               />
               <h2 className="text-4xl font-bold mb-6">Ils Camps</h2>
-              <p className="text-lg leading-[1.75] space-y-5 text-neutral-700">Ils ondersteunt mensen en gezinnen bij persoonlijke groei, het vinden van balans en het omgaan met levensvragen, zowel privé als in werk- of gezinscontext.</p>
+              <p className="text-lg leading-[1.75] space-y-5 text-neutral-700">Ils ondersteunt mensen, koppels en gezinnen bij persoonlijke groei, emotioneel welzijn, balans en levensvragen.</p>
               <p>Vanuit haar ervaring in het onderwijs heeft ze een sterke voeling met wat er leeft onder de oppervlakte.</p>
-              <p>Ze begeleidt met zachtheid en aandacht, en helpt mensen om terug verbinding te maken met zichzelf, hun gevoelens en hun noden.</p>
-              <p>Ze helpt met het zetten van een eerste stap.</p>
+              <p>Ze begeleidt mensen die worstelen met stress, onzekerheid, relationele uitdagingen of moeilijke levensfasen.</p>
+              <p>Met zachtheid, aandacht en oprechte betrokkenheid helpt ze mensen opnieuw verbinding te maken met zichzelf, hun gevoelens en hun noden.</p>
             </div>
           </div>
         </section>
@@ -209,6 +214,7 @@ export default function ClaroLandingPage() {
 
           <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-16">
             <div className="space-y-4 text-lg leading-[1.08] text-neutral-300">
+              <p>Claro Balance is gevestigd in Hasselt</p>
               <p>info@clarobalance.com</p>
               <p>0495/224924 - 0473/278769</p>
               <p>Weggevoerdenstraat 39, 3500 Hasselt</p>
