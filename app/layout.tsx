@@ -13,10 +13,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Claro Balance | Therapie, Coaching & Persoonlijke Groei in Hasselt en Limburg",
+  title: "Claro Balance | Coaching & Persoonlijke Begeleiding in Hasselt en Limburg",
   
   description:
-  "Claro Balance begeleidt mensen in Hasselt en Limburg bij persoonlijke groei, coaching, therapie, relatievraagstukken, stress, burn-out, levensvragen en mentale balans. Daarnaast organiseren wij retraites en begeleidingstrajecten in Málaga, Spanje.",
+  "Claro Balance biedt coaching en persoonlijke begeleiding in Hasselt en Limburg bij persoonlijke groei, levensvragen, stress, burn-out, relatievraagstukken, gezin en belangrijke keuzes. Daarnaast organiseren wij retraites en begeleidingstrajecten in Málaga, Spanje.",
 
   keywords: [
     "therapeut Hasselt",
@@ -56,14 +56,41 @@ export const metadata = {
   openGraph: {
     title: "Claro Balance",
     description:
-      "Therapie, coaching en mentale begeleiding in Hasselt & Limburg.",
+  "Coaching en persoonlijke begeleiding in Hasselt en Limburg voor persoonlijke groei, levensvragen, stress, relaties en belangrijke keuzes.",
     url: "https://clarobalance.com",
     siteName: "Claro Balance",
     locale: "nl_BE",
     type: "website",
   },
 };
-
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "@id": "https://clarobalance.com/#organization",
+  "name": "Claro Balance",
+  "url": "https://clarobalance.com",
+  "description":
+    "Claro Balance biedt coaching en persoonlijke begeleiding in Hasselt en Limburg bij persoonlijke groei, levensvragen, stress, burn-out, relatievraagstukken, gezin en belangrijke keuzes.",
+  "email": "info@clarobalance.com",
+  "telephone": "+32 495 22 49 24",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Weggevoerdenstraat 39",
+    "postalCode": "3500",
+    "addressLocality": "Hasselt",
+    "addressCountry": "BE"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Hasselt"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Limburg"
+    }
+  ]
+};
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -74,7 +101,15 @@ export default function RootLayout({
       lang="nl"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
-    </html>
+<body className="min-h-full flex flex-col">
+  <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{
+      __html: JSON.stringify(organizationSchema),
+    }}
+  />
+  {children}
+</body>
+</html>
   );
 }

@@ -103,7 +103,11 @@ export default function ClaroLandingPage() {
         </section>
 
         <section className="max-w-4xl mx-auto px-6 md:px-10 py-12 md:py-20 text-left leading-[1.8] text-[1.05rem] text-neutral-700">
-  <p>
+  <p className="mb-6">
+  Claro Balance is een praktijk voor coaching en persoonlijke begeleiding in Hasselt en Limburg, voor mensen die op zoek zijn naar meer helderheid, richting en balans.
+</p>
+
+<p>
     Wanneer praten niet meer volstaat.<br />
     Wanneer het niet meer stroomt.<br />
     Wanneer je voelt dat er iets wringt, maar niet precies weet wat of hoe je het moet aanpakken.
@@ -139,6 +143,10 @@ export default function ClaroLandingPage() {
     WAT DOEN WIJ
   </h2>
 
+<p className="max-w-3xl text-lg leading-[1.75] text-neutral-600 mb-10">
+  Claro Balance biedt coaching en persoonlijke begeleiding aan mensen in Hasselt en Limburg die vastlopen in hun persoonlijke leven, relaties, gezin of professionele context. We begeleiden onder meer bij stress, burn-out, persoonlijke groei, levensvragen, relationele uitdagingen en belangrijke keuzes.
+</p>
+
   <div className="max-w-3xl leading-[1.75] text-neutral-700 space-y-6">
     <p>
       Claro is ontstaan vanuit een gedeelde overtuiging: dat echte begeleiding vraagt om betrokkenheid, helderheid en respect.
@@ -161,6 +169,60 @@ export default function ClaroLandingPage() {
     </p>
   </div>
 </div>
+        <section className="max-w-4xl mx-auto px-6 md:px-10 py-16 md:py-20">
+          <h2
+            className="text-3xl md:text-4xl tracking-[0.2em] font-bold text-neutral-900 mb-10"
+            style={{ fontFamily: '"Playfair Display", Georgia, serif' }}
+          >
+            VEELGESTELDE VRAGEN
+          </h2>
+
+          <div className="max-w-3xl space-y-8 text-neutral-700 leading-[1.75]">
+            <div>
+              <h3 className="text-xl font-semibold text-neutral-900 mb-2">
+                Wat doet Claro Balance?
+              </h3>
+              <p>
+                Claro Balance biedt coaching en persoonlijke begeleiding in Hasselt
+                en Limburg. We begeleiden mensen bij persoonlijke groei, levensvragen,
+                stress, burn-out, relaties, gezin en belangrijke keuzes.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-semibold text-neutral-900 mb-2">
+                Voor wie is coaching bij Claro Balance?
+              </h3>
+              <p>
+                Claro Balance is er voor mensen die meer helderheid, richting en
+                balans zoeken in hun persoonlijke, relationele of professionele leven.
+                We begeleiden zowel individuen als koppels en gezinnen.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-semibold text-neutral-900 mb-2">
+                Waarvoor kan ik bij Claro Balance terecht?
+              </h3>
+              <p>
+                Je kunt bij Claro Balance terecht met vragen rond persoonlijke groei,
+                stress, burn-out, relaties, gezin, levenskeuzes en andere situaties
+                waarin je vastloopt of opnieuw richting wilt vinden.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-semibold text-neutral-900 mb-2">
+                Waar is Claro Balance gevestigd?
+              </h3>
+              <p>
+                Claro Balance is gevestigd in Hasselt en biedt persoonlijke begeleiding
+                aan mensen uit Hasselt en de ruimere regio Limburg.
+              </p>
+            </div>
+          </div>
+        </section>
+        
         <section id="wie" className="bg-white py-20 md:py-28
          px-6 relative overflow-hidden">
           <div className="scroll-mt-32 absolute -top-32" id="wie-anchor" />
@@ -169,7 +231,59 @@ export default function ClaroLandingPage() {
               WIE ZIJN WIJ
             </h2>
           </div>
+        <section className="max-w-4xl mx-auto px-6 md:px-10 py-16 md:py-20">
+          <h2
+            className="text-3xl md:text-4xl tracking-[0.2em] font-bold text-neutral-900 mb-10"
+            style={{ fontFamily: '"Playfair Display", Georgia, serif' }}
+          >
+            VEELGESTELDE VRAGEN
+          </h2>
 
+          <div className="max-w-3xl space-y-8 text-neutral-700 leading-[1.75]">
+            <div>
+              <h3 className="text-xl font-semibold text-neutral-900 mb-2">
+                Wat doet Claro Balance?
+              </h3>
+              <p>
+                Claro Balance biedt coaching en persoonlijke begeleiding in Hasselt
+                en Limburg. We begeleiden mensen bij persoonlijke groei, levensvragen,
+                stress, burn-out, relaties, gezin en belangrijke keuzes.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-semibold text-neutral-900 mb-2">
+                Voor wie is coaching bij Claro Balance?
+              </h3>
+              <p>
+                Claro Balance is er voor mensen die meer helderheid, richting en
+                balans zoeken in hun persoonlijke, relationele of professionele leven.
+                We begeleiden zowel individuen als koppels en gezinnen.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-semibold text-neutral-900 mb-2">
+                Waarvoor kan ik bij Claro Balance terecht?
+              </h3>
+              <p>
+                Je kunt bij Claro Balance terecht met vragen rond persoonlijke groei,
+                stress, burn-out, relaties, gezin, levenskeuzes en andere situaties
+                waarin je vastloopt of opnieuw richting wilt vinden.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-semibold text-neutral-900 mb-2">
+                Waar is Claro Balance gevestigd?
+              </h3>
+              <p>
+                Claro Balance is gevestigd in Hasselt en biedt persoonlijke begeleiding
+                aan mensen uit Hasselt en de ruimere regio Limburg.
+              </p>
+            </div>
+          </div>
+        </section>
           <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-24 items-start md:items-stretch relative z-10">
             <div className="flex flex-col">
               <motion.img
