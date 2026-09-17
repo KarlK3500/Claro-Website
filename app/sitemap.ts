@@ -6,5 +6,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: "https://clarobalance.com",
       lastModified: new Date(),
     },
+    {
+      url: "https://clarobalance.com/psycholoog-hasselt",
+      lastModified: new Date(),
+    },
   ];
 }
