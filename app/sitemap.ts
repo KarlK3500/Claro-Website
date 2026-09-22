@@ -22,5 +22,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: "https://clarobalance.com/relatiebegeleiding-hasselt",
       lastModified: new Date(),
     },
+    {
+  url: "https://clarobalance.com/ouder-en-gezinsbegeleiding-hasselt",
+  lastModified: new Date(),
+},
   ];
 }
