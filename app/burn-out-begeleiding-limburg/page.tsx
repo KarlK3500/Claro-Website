@@ -5,13 +5,13 @@ export const metadata: Metadata = {
   description:
     "Burn-out begeleiding in Limburg voor wie vastloopt door stress, overbelasting of langdurige druk. Claro Balance biedt persoonlijke begeleiding met ruimte voor rust, helderheid en richting.",
   alternates: {
-    canonical: "https://clarobalance.com/burn-out-begeleiding-limburg",
+    canonical: "https://www.clarobalance.com/burn-out-begeleiding-limburg",
   },
   openGraph: {
     title: "Burn-out begeleiding in Limburg | Claro Balance",
     description:
       "Persoonlijke begeleiding bij stress, overbelasting en burn-out in Limburg. Claro Balance helpt je vertragen, helder kijken en opnieuw richting vinden.",
-    url: "https://clarobalance.com/burn-out-begeleiding-limburg",
+    url: "https://www.clarobalance.com/burn-out-begeleiding-limburg",
     siteName: "Claro Balance",
     locale: "nl_BE",
     type: "website",

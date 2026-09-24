@@ -57,7 +57,7 @@ export const metadata = {
     title: "Claro Balance",
     description:
   "Coaching en persoonlijke begeleiding in Hasselt en Limburg voor persoonlijke groei, levensvragen, stress, relaties en belangrijke keuzes.",
-    url: "https://clarobalance.com",
+    url: "https://www.clarobalance.com",
     siteName: "Claro Balance",
     locale: "nl_BE",
     type: "website",
@@ -66,9 +66,9 @@ export const metadata = {
 const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
-  "@id": "https://clarobalance.com/#organization",
+  "@id": "https://www.clarobalance.com/#organization",
   "name": "Claro Balance",
-  "url": "https://clarobalance.com",
+  "url": "https://www.clarobalance.com",
   "description":
     "Claro Balance biedt coaching en persoonlijke begeleiding in Hasselt en Limburg bij persoonlijke groei, levensvragen, stress, burn-out, relatievraagstukken, gezin en belangrijke keuzes.",
   "email": "info@clarobalance.com",

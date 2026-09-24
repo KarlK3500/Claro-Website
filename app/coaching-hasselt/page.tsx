@@ -5,13 +5,13 @@ export const metadata: Metadata = {
   description:
     "Op zoek naar coaching in Hasselt? Claro Balance biedt persoonlijke coaching en begeleiding bij persoonlijke groei, levensvragen, stress, burn-out, relaties, werk en belangrijke keuzes.",
   alternates: {
-    canonical: "https://clarobalance.com/coaching-hasselt",
+    canonical: "https://www.clarobalance.com/coaching-hasselt",
   },
   openGraph: {
     title: "Coaching in Hasselt | Claro Balance",
     description:
       "Persoonlijke coaching en begeleiding in Hasselt en Limburg bij persoonlijke groei, levensvragen, stress, burn-out, relaties en belangrijke keuzes.",
-    url: "https://clarobalance.com/coaching-hasselt",
+    url: "https://www.clarobalance.com/coaching-hasselt",
     siteName: "Claro Balance",
     locale: "nl_BE",
     type: "website",

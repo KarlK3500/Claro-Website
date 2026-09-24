@@ -5,13 +5,13 @@ export const metadata: Metadata = {
   description:
     "Ouder- en gezinsbegeleiding in Hasselt bij opvoedingsvragen, moeilijk gedrag, puberteit, gezinsdynamiek, kinderen en jongeren. Claro Balance biedt rust, overzicht en richting.",
   alternates: {
-    canonical: "https://clarobalance.com/ouder-en-gezinsbegeleiding-hasselt",
+    canonical: "https://www.clarobalance.com/ouder-en-gezinsbegeleiding-hasselt",
   },
   openGraph: {
     title: "Ouder- en gezinsbegeleiding in Hasselt | Claro Balance",
     description:
       "Begeleiding voor ouders, gezinnen, kinderen en jongeren bij opvoeding, gedrag, puberteit, schoolvragen en situaties waarin je als gezin vastloopt.",
-    url: "https://clarobalance.com/ouder-en-gezinsbegeleiding-hasselt",
+    url: "https://www.clarobalance.com/ouder-en-gezinsbegeleiding-hasselt",
     siteName: "Claro Balance",
     locale: "nl_BE",
     type: "website",

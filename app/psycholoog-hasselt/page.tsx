@@ -5,13 +5,13 @@ export const metadata: Metadata = {
   description:
     "Op zoek naar een psycholoog in Hasselt? Ontdek welke begeleiding kan passen bij stress, burn-out, relaties, persoonlijke groei en levensvragen. Claro Balance biedt coaching en persoonlijke begeleiding in Hasselt en Limburg.",
   alternates: {
-    canonical: "https://clarobalance.com/psycholoog-hasselt",
+    canonical: "https://www.clarobalance.com/psycholoog-hasselt",
   },
   openGraph: {
     title: "Psycholoog of coach in Hasselt | Claro Balance",
     description:
       "Welke begeleiding past bij jouw vraag? Ontdek het verschil tussen psychologische hulp, coaching en persoonlijke begeleiding in Hasselt.",
-    url: "https://clarobalance.com/psycholoog-hasselt",
+    url: "https://www.clarobalance.com/psycholoog-hasselt",
     siteName: "Claro Balance",
     locale: "nl_BE",
     type: "website",

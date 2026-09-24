@@ -5,13 +5,13 @@ export const metadata: Metadata = {
   description:
     "Relatiebegeleiding in Hasselt voor koppels en partners die vastlopen in communicatie, terugkerende patronen of belangrijke veranderingen. Claro Balance biedt ruimte voor helderheid, verbinding en richting.",
   alternates: {
-    canonical: "https://clarobalance.com/relatiebegeleiding-hasselt",
+    canonical: "https://www.clarobalance.com/relatiebegeleiding-hasselt",
   },
   openGraph: {
     title: "Relatiebegeleiding in Hasselt | Claro Balance",
     description:
       "Persoonlijke relatiebegeleiding in Hasselt bij communicatieproblemen, terugkerende patronen, veranderingen en relationele uitdagingen.",
-    url: "https://clarobalance.com/relatiebegeleiding-hasselt",
+    url: "https://www.clarobalance.com/relatiebegeleiding-hasselt",
     siteName: "Claro Balance",
     locale: "nl_BE",
     type: "website",
