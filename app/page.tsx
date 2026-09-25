@@ -144,7 +144,7 @@ export default function ClaroLandingPage() {
   </h2>
 
 <p className="max-w-3xl text-lg leading-[1.75] text-neutral-600 mb-10">
-  Claro Balance biedt coaching en persoonlijke begeleiding aan mensen in Hasselt en Limburg die vastlopen in hun persoonlijke leven, relaties, gezin of professionele context. We begeleiden onder meer bij stress, burn-out, persoonlijke groei, levensvragen, relationele uitdagingen en belangrijke keuzes.
+  Claro Balance biedt <a href="/coaching-hasselt">coaching</a> en persoonlijke begeleiding aan mensen in Hasselt en Limburg die vastlopen in hun persoonlijke leven, relaties, gezin of professionele context. We begeleiden onder meer bij stress, burn-out, persoonlijke groei, levensvragen, relationele uitdagingen en belangrijke keuzes.
 </p>
 
   <div className="max-w-3xl leading-[1.75] text-neutral-700 space-y-6">
@@ -153,7 +153,7 @@ export default function ClaroLandingPage() {
     </p>
 
     <p>
-      Claro Balance biedt coaching, persoonlijke begeleiding en ondersteuning aan mensen die vastlopen in hun persoonlijke leven, relaties, gezin of professionele context.
+      Claro Balance biedt coaching, persoonlijke begeleiding en ondersteuning aan mensen die vastlopen in hun persoonlijke leven, <a href="/relatiebegeleiding-hasselt">relaties</a>, gezin of professionele context.
     </p>
 
     <p>
@@ -161,7 +161,7 @@ export default function ClaroLandingPage() {
     </p>
 
     <p>
-      Ils ondersteunt bij persoonlijke groei, beslissingen nemen, balans en levensvragen, zowel privé als binnen werk- en gezinscontext.
+      Ils ondersteunt bij persoonlijke groei, beslissingen nemen, balans en levensvragen, zowel privé als binnen werk- en <a href="/ouder-en-gezinsbegeleiding-hasselt">gezinscontext</a>.
     </p>
 
     <p>
@@ -185,7 +185,7 @@ export default function ClaroLandingPage() {
               <p>
                 Claro Balance biedt coaching en persoonlijke begeleiding in Hasselt
                 en Limburg. We begeleiden mensen bij persoonlijke groei, levensvragen,
-                stress, burn-out, relaties, gezin en belangrijke keuzes.
+                stress, <a href="/burn-out-begeleiding-limburg<">burn-out</a>, relaties, gezin en belangrijke keuzes.
               </p>
             </div>
 
