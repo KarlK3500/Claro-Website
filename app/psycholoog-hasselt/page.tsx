@@ -83,7 +83,7 @@ export default function PsycholoogHasseltPage() {
               </h2>
 
               <p>
-                Coaching en persoonlijke begeleiding kunnen helpen wanneer je
+                <a href="/coaching-hasselt">Coaching en persoonlijke begeleiding</a> kunnen helpen wanneer je
                 wilt stilstaan bij patronen, keuzes, relaties, persoonlijke
                 groei of veranderingen in je leven. Het uitgangspunt is om
                 helder te krijgen wat er speelt en welke richting voor jou
