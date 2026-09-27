@@ -19,10 +19,37 @@ export const metadata: Metadata = {
 };
 
 export default function BurnOutBegeleidingLimburgPage() {
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Claro Balance",
+        "item": "https://www.clarobalance.com",
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Burn-out begeleiding in Limburg",
+        "item": "https://www.clarobalance.com/burn-out-begeleiding-limburg",
+      },
+    ],
+  };
+
   return (
-    <main className="min-h-screen bg-[#f5f1ea] text-neutral-900">
-      {/* HERO */}
-      <section className="max-w-5xl mx-auto px-6 md:px-10 pt-28 md:pt-40 pb-20">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(breadcrumbSchema),
+        }}
+      />
+
+      <main className="min-h-screen bg-[#f5f1ea] text-neutral-900">
+        {/* HERO */}
+        <section className="max-w-5xl mx-auto px-6 md:px-10 pt-28 md:pt-40 pb-20">
         <p className="text-sm tracking-[0.25em] uppercase text-neutral-500 mb-8">
           Claro Balance · Limburg
         </p>
@@ -149,8 +176,8 @@ export default function BurnOutBegeleidingLimburgPage() {
               <p>
                 Claro biedt coaching en persoonlijke begeleiding. Wanneer er
                 sprake is van ernstige psychologische of medische klachten,
-                wanneer je een diagnose nodig hebt of wanneer gespecialiseerde
-                zorg aangewezen is, is het belangrijk om een arts,
+                wanneer je een diagnose nodig hebt of wanneer <a href="/psycholoog-hasselt">especialiseerde
+                zorg</a> aangewezen is, is het belangrijk om een arts,
                 psycholoog of andere gekwalificeerde zorgprofessional te
                 raadplegen.
               </p>
@@ -176,8 +203,8 @@ export default function BurnOutBegeleidingLimburgPage() {
 
           <div className="max-w-3xl text-lg leading-[1.8] text-neutral-700 space-y-6">
             <p>
-              Claro Balance biedt coaching en persoonlijke begeleiding in
-              Hasselt en Limburg aan mensen die vastlopen door stress,
+              Claro Balance biedt <a href="/coaching-hasselt">coaching en persoonlijke begeleiding in
+              Hasselt</a>  en Limburg aan mensen die vastlopen door stress,
               overbelasting, belangrijke veranderingen of een periode waarin
               het even niet meer stroomt.
             </p>
@@ -273,5 +300,6 @@ export default function BurnOutBegeleidingLimburgPage() {
         </div>
       </section>
     </main>
+    </>
   );
 }

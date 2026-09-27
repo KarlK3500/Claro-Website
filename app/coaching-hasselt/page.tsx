@@ -19,9 +19,36 @@ export const metadata: Metadata = {
 };
 
 export default function CoachingHasseltPage() {
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Claro Balance",
+        "item": "https://www.clarobalance.com",
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Coaching in Hasselt",
+        "item": "https://www.clarobalance.com/coaching-hasselt",
+      },
+    ],
+  };
+
   return (
-    <main className="min-h-screen bg-[#f5f1ea] text-neutral-900">
-      <section className="max-w-5xl mx-auto px-6 md:px-10 pt-28 md:pt-40 pb-20">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(breadcrumbSchema),
+        }}
+      />
+
+      <main className="min-h-screen bg-[#f5f1ea] text-neutral-900">
+        <section className="max-w-5xl mx-auto px-6 md:px-10 pt-28 md:pt-40 pb-20">
         <p className="text-sm tracking-[0.25em] uppercase text-neutral-500 mb-8">
           Claro Balance · Hasselt & Limburg
         </p>
@@ -146,9 +173,8 @@ export default function CoachingHasseltPage() {
               </p>
 
               <p>
-                Wanneer je psychologische klachten ervaart of gespecialiseerde
-                psychologische of medische hulp nodig hebt, is het belangrijk om
-                een daarvoor gekwalificeerde zorgprofessional te raadplegen.
+                Wanneer je psychologische klachten ervaart of <a href="/psycholoog-hasselt">gespecialiseerde psychologische of medische hulp</a>
+                nodig hebt, is het belangrijk om een daarvoor gekwalificeerde zorgprofessional te raadplegen.
                 Verschillende vormen van ondersteuning kunnen in sommige
                 situaties ook naast elkaar bestaan.
               </p>
@@ -273,5 +299,7 @@ export default function CoachingHasseltPage() {
         </div>
       </section>
     </main>
+    </>
   );
-}
+  }
+  
