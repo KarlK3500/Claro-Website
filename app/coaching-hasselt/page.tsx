@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Coaching in Hasselt | Claro Balance",
-  description:
-    "Op zoek naar coaching in Hasselt? Claro Balance biedt persoonlijke coaching en begeleiding bij persoonlijke groei, levensvragen, stress, burn-out, relaties, werk en belangrijke keuzes.",
+  title: "Coach in Hasselt | Coaching bij stress en groei – Claro Balance",
+description:
+  "Zoek je een coach in Hasselt? Claro Balance biedt persoonlijke begeleiding bij stress, overbelasting, burn-out, relaties en belangrijke keuzes. Ontdek welke begeleiding bij jou past.",
   alternates: {
     canonical: "https://www.clarobalance.com/coaching-hasselt",
   },
