@@ -185,7 +185,7 @@ export default function ClaroLandingPage() {
               <p>
                 Claro Balance biedt coaching en persoonlijke begeleiding in Hasselt
                 en Limburg. We begeleiden mensen bij persoonlijke groei, levensvragen,
-                stress, <a href="/burn-out-begeleiding-limburg<">burn-out</a>, relaties, gezin en belangrijke keuzes.
+                stress, <a href="/burn-out-begeleiding-limburg">burn-out</a>, relaties, gezin en belangrijke keuzes.
               </p>
             </div>
 
@@ -260,12 +260,39 @@ export default function ClaroLandingPage() {
               />
               <h2 className="text-4xl font-bold mb-6">Ils Camps</h2>
               <p className="text-lg leading-[1.75] space-y-5 text-neutral-700">Ils ondersteunt mensen, koppels en gezinnen bij persoonlijke groei, emotioneel welzijn, balans en levensvragen.</p>
-              <p>Vanuit haar ervaring in het onderwijs heeft ze een sterke voeling met wat er leeft onder de oppervlakte.</p>
+              <p>Ils heeft ruime ervaring in het buitengewoon onderwijs en een brede pedagogische achtergrond. Ze heeft bijzondere expertise in autismespectrumstoornissen (ASS), gedrag en emotionele ontwikkeling.</p>
               <p>Ze begeleidt mensen die worstelen met stress, onzekerheid, relationele uitdagingen of moeilijke levensfasen.</p>
               <p>Met zachtheid, aandacht en oprechte betrokkenheid helpt ze mensen opnieuw verbinding te maken met zichzelf, hun gevoelens en hun noden.</p>
             </div>
           </div>
         </section>
+
+<section className="bg-[#f5f1ea] py-16 md:py-24 px-6">
+  <div className="max-w-4xl mx-auto">
+    <h2
+      className="text-3xl md:text-4xl tracking-[0.2em] font-bold text-neutral-900 mb-8"
+      style={{ fontFamily: '"Playfair Display", Georgia, serif' }}
+    >
+      BEGELEIDING MET OOG VOOR HET GEHEEL
+    </h2>
+
+    <div className="max-w-3xl space-y-5 text-lg leading-[1.75] text-neutral-700">
+      <p>
+        Soms helpt het om vanuit verschillende expertises naar een vraag te kijken.
+        Claro werkt vanuit Huis39 in Hasselt, een praktijkomgeving waar professionals
+        elk vanuit hun eigen expertise mensen begeleiden.
+      </p>
+      <p>
+        Wanneer een vraag om bijkomende expertise vraagt, kunnen we bekijken welke
+        verdere begeleiding passend kan zijn.
+      </p>
+      <p>
+        Zo houden we oog voor de persoon achter de hulpvraag en voor wat op dat
+        moment echt kan helpen.
+      </p>
+    </div>
+  </div>
+</section>
 
         <section id="contact" className="bg-neutral-950 text-white py-16 md:py-24 px-6 relative overflow-hidden scroll-mt-28">
           <div className="max-w-5xl mx-auto mb-16 relative z-10">
