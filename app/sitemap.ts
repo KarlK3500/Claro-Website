@@ -1,3 +1,4 @@
+
 import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -23,8 +24,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
     },
     {
-  url: "https://www.clarobalance.com/ouder-en-gezinsbegeleiding-hasselt",
-  lastModified: new Date(),
-},
+      url: "https://www.clarobalance.com/ouder-en-gezinsbegeleiding-hasselt",
+      lastModified: new Date(),
+    },
+    {
+      url: "https://www.clarobalance.com/contact",
+      lastModified: new Date(),
+    },
+    {
+      url: "https://www.clarobalance.com/over-ons",
+      lastModified: new Date(),
+    },
+    {
+      url: "https://www.clarobalance.com/privacy",
+      lastModified: new Date(),
+    },
   ];
 }
