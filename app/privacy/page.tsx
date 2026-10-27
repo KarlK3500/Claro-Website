@@ -61,11 +61,13 @@ export default function PrivacyPage() {
           Wie verwerkt je gegevens?
         </h2>
 
+        
         <p style={{ fontSize: 16, lineHeight: 1.8 }}>
           Claro Balance is de merknaam waaronder Nikafin BV en Ils Camps
           samenwerken. Voor vragen over persoonsgegevens kun je contact
           opnemen via info@clarobalance.com.
         </p>
+
 
         <p style={{ fontSize: 16, lineHeight: 1.8 }}>
           Nikafin BV
