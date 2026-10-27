@@ -69,15 +69,6 @@ export default function PrivacyPage() {
         </p>
 
 
-        <p style={{ fontSize: 16, lineHeight: 1.8 }}>
-          Nikafin BV
-          <br />
-          Oude Kuringerbaan 113
-          <br />
-          3500 Hasselt, België
-          <br />
-          Ondernemingsnummer: BE 0597.983.026
-        </p>
 
         <h2
           style={{
